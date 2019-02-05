@@ -10,8 +10,8 @@ class Dog
     @@all.clear
   end
   
-  def all
-    puts @@all 
+  def self.all
+    print @@all 
   end
   
 end 
