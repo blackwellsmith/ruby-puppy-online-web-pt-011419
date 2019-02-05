@@ -11,7 +11,8 @@ class Dog
   end
   
   def self.all
-    @@all.each do |
+    @@all.each do |a|
+      puts a
     
   end
   
