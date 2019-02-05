@@ -3,7 +3,7 @@ class Dog
   @@all = []
   def initialize(name)
     @name = name
-    @@all << self
+    @@all << self + \n
   end
   
   def self.clear_all
