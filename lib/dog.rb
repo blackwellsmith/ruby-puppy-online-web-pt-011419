@@ -11,7 +11,7 @@ class Dog
   end
   
   def self.all
-     puts @@all.flatten 
+      @@all.flatten 
     
   end
   
